@@ -23,5 +23,8 @@ First iteration before size down
 ![robot arm image](./PICTURES/Screenshot_20260526_222849.png)
 Downsized
 
+![circuit diagram](./PICTURES/CIRCUIT.webp)
+Circuit Diagram
+
 ## Build
 Coming soon :)
