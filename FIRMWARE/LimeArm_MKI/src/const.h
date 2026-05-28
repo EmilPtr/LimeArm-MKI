@@ -7,8 +7,8 @@
 #define STEP_TURR_PIN 32, 26, 33, 27
 #define STEP_MAX_ACCEL 110
 #define STEP_MAX_SPEED 200
-#define STEP_TURRET_MAX_ACCEL 800
-#define STEP_TURRET_MAX_SPEED 1600
+#define STEP_TURRET_MAX_ACCEL 600
+#define STEP_TURRET_MAX_SPEED 1200
 
 // Claw pin constants
 #define CLAW_PIN 25

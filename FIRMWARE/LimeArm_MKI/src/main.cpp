@@ -19,12 +19,12 @@ void configureStepper(AccelStepper &stepper, int maxSpeed, int acceleration) {
   stepper.setCurrentPosition(0);
 }
 
-int joystickToSpeed(int value) {
+int joystickToSpeed(int value, int maxSpeed) {
   if (abs(value - JOY_CENTER) < JOY_DEADZONE) {
     return 0;
   }
 
-  return map(value, 0, 4095, -STEP_MAX_SPEED, STEP_MAX_SPEED);
+  return map(value, 0, 4095, -maxSpeed, maxSpeed);
 }
 
 void handleManualAction(ManualAction action) {
@@ -62,8 +62,8 @@ void loop() {
 
   int xValue = analogRead(JOY_X_PIN);
   int yValue = analogRead(JOY_Y_PIN);
-  int xSpeed = joystickToSpeed(xValue);
-  int ySpeed = joystickToSpeed(yValue);
+  int xSpeed = joystickToSpeed(xValue, turretMode ? STEP_TURRET_MAX_SPEED : STEP_MAX_SPEED);
+  int ySpeed = joystickToSpeed(yValue, STEP_MAX_SPEED);
 
   if (turretMode) {
     // Turret mode gives the X axis to rotation and ignores Y.
