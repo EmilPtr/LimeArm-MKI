@@ -5,10 +5,10 @@
 #define STEP_FB_PIN 16, 18, 17, 19
 #define STEP_UD_PIN 2, 12, 4, 14
 #define STEP_TURR_PIN 32, 26, 33, 27
-#define STEP_MAX_ACCEL 110
-#define STEP_MAX_SPEED 200
-#define STEP_TURRET_MAX_ACCEL 600
-#define STEP_TURRET_MAX_SPEED 1200
+#define STEP_MAX_ACCEL 75
+#define STEP_MAX_SPEED 150
+#define STEP_TURRET_MAX_ACCEL 150
+#define STEP_TURRET_MAX_SPEED 300
 
 // Claw pin constants
 #define CLAW_PIN 25
