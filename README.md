@@ -26,5 +26,19 @@ Downsized
 ![circuit diagram](./PICTURES/CIRCUIT.webp)
 Circuit Diagram
 
+## BOM
+|Part Name             |Amount|Link to Part                                         |Obtained|Price           |
+|----------------------|------|-----------------------------------------------------|--------|----------------|
+|28BYJ-48 Stepper Motor|3     |https://www.aliexpress.com/item/1005009331799965.html|Yes     |$9.99           |
+|ULN2003 Stepper Driver|3     |https://www.aliexpress.com/item/1005009331799965.html|Yes     |Comes with above|
+|ESP32                 |1     |https://www.aliexpress.com/item/1005008806241325.html|Yes     |$6.99           |
+|MG90 Micro Servo      |1     |https://www.aliexpress.com/item/32438050796.html     |Yes     |$2.59           |
+|Assorted Wires        |N/A   |N/A                                                  |Yes     |Negligible      |
+|3DP Parts             |N/A   |N/A                                                  |Yes     |Negligible      |
+|                      |      |                                                     |        |                |
+|                      |      |                                                     |        |Total Cost      |
+|                      |      |                                                     |        |$19.57          |
+
+
 ## Build
 Coming soon :)
