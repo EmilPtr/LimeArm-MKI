@@ -45,4 +45,8 @@ Circuit Diagram
 ![photo1](./PICTURES/IMG_0132.jpg)
 ![photo1](./PICTURES/IMG_0133.jpg)
 ![photo1](./PICTURES/IMG_0135.jpg)
-<video src="./PICTURES/IMG_0115.MOV" width="100%" controls></video>
+## Video is here:
+https://drive.google.com/file/d/1GkwxV1Ix10FxGRyfBV68P5_X3fs_jpAJ/view?usp=sharing
+
+
+
