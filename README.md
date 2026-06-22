@@ -41,4 +41,7 @@ Circuit Diagram
 
 
 ## Build
-Coming soon :)
+### Cool photos yay!!! :D
+![photo1](./PICTURES/IMG_0132.jpg)
+![photo1](./PICTURES/IMG_0133.jpg)
+![photo1](./PICTURES/IMG_0135.jpg)
