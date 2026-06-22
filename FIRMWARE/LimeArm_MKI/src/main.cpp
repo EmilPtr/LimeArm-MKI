@@ -69,10 +69,10 @@ void loop() {
     // Turret mode gives the X axis to rotation and ignores Y.
     stepFB.setSpeed(0);
     stepUD.setSpeed(0);
-    stepTurr.setSpeed(-xSpeed);
+    stepTurr.setSpeed(xSpeed);
   } else {
     // Drive mode uses both joystick axes for the arm movement.
-    stepFB.setSpeed(xSpeed);
+    stepFB.setSpeed(-xSpeed);
     stepUD.setSpeed(ySpeed);
     stepTurr.setSpeed(0);
   }
