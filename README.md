@@ -45,3 +45,4 @@ Circuit Diagram
 ![photo1](./PICTURES/IMG_0132.jpg)
 ![photo1](./PICTURES/IMG_0133.jpg)
 ![photo1](./PICTURES/IMG_0135.jpg)
+<video src="./PICTURES/IMG_0115.MOV" width="100%" controls></video>
